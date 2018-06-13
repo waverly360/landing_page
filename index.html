@@ -1,0 +1,32 @@
+<html>
+<style>
+	div {
+		border-bottom: 4px solid black;
+		width: 20%;
+		height: 60px;
+		text-align: center;
+		padding-top: 10px;
+		float: left;
+		background: #485975;
+	}
+
+	a, a:link, a:visited {
+		text-decoration: none;
+		font: Arial;
+		color: white;
+	}
+
+	a:hover {
+		color: #ffd3d3;
+	}
+</style>
+	<body style="width:100%; margin: 0 auto;">
+		<div><a href="http://192.168.1.10:8096/" target="myTarget"><img height="30" src="emby.png"/><br/>Emby Server</a></div>
+		<div><a href="http://192.168.1.10:8989/" target="myTarget"><img height="30" src="sonarr.png"/><br/>Sonarr</a></div>
+		<div><a href="http://192.168.1.10:7878/" target="myTarget"><img height="30" src="radarr.png"/><br/>Radarr</a></div>
+		<div><a href="http://192.168.1.10:9117/" target="myTarget"><img height="30" src="jackett.png"/><br/>Jackett</a></div>
+		<div><a href="http://192.168.1.10:8112/" target="myTarget"><img height="30" src="deluge.png"/><br/>Deluge</a></div>
+		<iframe style="width:100%; height: 90%; margin: 0 auto; padding: 0; border: 0;"  name="myTarget" />
+	</body>
+</html>
+
